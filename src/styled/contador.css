@@ -1,0 +1,44 @@
+.contenedor{
+    width: 100%;
+    position: absolute !important;
+    z-index: 1;
+    top: 200px;
+}
+
+.tiempo{
+    color: hsl(237, 18%, 59%);
+    display: inline-block;
+    margin-right: 90px;;
+}
+
+.targetas{
+    width: 150px;
+    font-size: 100px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: hsl(236, 21%, 26%);
+    color: hsl(345, 95%, 68%);
+    box-shadow: 0px 10px 0px hsl(234, 17%, 12%) !important;
+}
+
+@media screen and (max-width: 720px){
+    .tiempo{
+      margin-right: 40px;
+    }
+    .targetas{
+        width: 90px;
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 380px){
+    .tiempo{
+      margin-right: 20px;
+    }
+    .targetas{
+        width: 50px;
+        font-size: 30px;
+    }
+    h5{
+        font-size: 12px;
+    }
+}

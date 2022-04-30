@@ -1,0 +1,12 @@
+
+.fondo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    background-Image: url(https://res.cloudinary.com/donoutoby/image/upload/v1645157219/reto%202/bg-stars_fbkgf0.svg);
+}
+
+.pantalla{
+    margin-top: 100px;
+}

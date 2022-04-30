@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
+body{
+    height: 100%;
+    background: linear-gradient(to bottom, hsl(235, 16%, 14%), hsl(235, 16%, 14%)) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Red Hat Text', sans-serif;
+}

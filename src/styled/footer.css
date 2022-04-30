@@ -1,0 +1,39 @@
+section{
+    width: 100%;
+    height: 160px;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    background-Image: url(https://res.cloudinary.com/donoutoby/image/upload/v1645157219/reto%202/pattern-hills_gaqydb.svg);
+}
+
+.redes{
+    margin: 100px auto 0px auto;
+}
+
+a{
+    margin: 0px 20px 0px 20px;
+}
+
+a path:hover{
+    fill: hsl(345, 95%, 68%);
+}
+
+@media screen and (max-width: 720px){
+    .redes{
+        width: 50% !important;
+    }
+    a{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .redes{
+        width: 40% !important;
+    }
+    a{
+        display: inline-block;
+        margin: 0px 10px 0px 10px;
+    }
+}
